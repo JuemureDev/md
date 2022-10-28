@@ -151,9 +151,6 @@
     <el-button plain size="medium" :type="btnType" @click="copy">
       复制
     </el-button>
-    <el-button plain size="medium" :type="btnType" @click="prePost">
-      发布
-    </el-button>
 
     <post-info-dialog
       :form="form"
